@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.joc{
+    height: 34vh;
+    background-color: white;
+}
+.joc-heading{
+    color: rgb(42, 175, 172);
+    padding: 19px;
+}
+.joc-second{
+    color: rgb(209, 226, 115);
+    padding-left: 19px;
+    padding-bottom: 10px;
+}
+.joc-desc{
+    color: grey;
+    line-height: 27px;
+    padding-left: 19px;
+}
+.ms{
+    height: 33vh;
+    background-color:rgb(43, 179, 177);
+}
+.ms-heading{
+    color: white;
+    padding: 19px;
+}
+.ms-desc{
+    color: white;
+    font-size: x-large;
+    padding-left: 19px;
+    font-weight: bold;
+}
+.ms-desc1{
+    color: rgb(243, 220, 220);
+    padding-left: 5px;
+}
+.ms-desc2{
+    color: whitesmoke;
+    padding-left: 19px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+.ms-button{
+    width: 250px;
+    height: 40px;
+    color: white;
+    border: transparent;
+    background-color: rgb(191,223,50);
+    margin-left: 19px;
+    border-radius: 5px;
+}
+.whyus{
+    height: 33vh;
+    background-color: rgb(75, 189, 189);
+}
+.wu-heading{
+    color: snow;
+    padding: 19px;
+}
+.wu-desc{
+    color: white;
+    line-height:30px;
+    padding-left: 19px;
+}
+@media(min-width:720px){
+    font-size:30px;
+
+
+}

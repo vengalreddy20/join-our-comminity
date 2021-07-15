@@ -22,7 +22,7 @@ html{
 }
 .joc-desc{
     color: grey;
-    line-height: 27px;
+    line-height: 22px;
     padding-left: 19px;
 }
 .ms{
@@ -71,8 +71,99 @@ html{
     line-height:30px;
     padding-left: 19px;
 }
-@media(min-width:720px){
-    font-size:30px;
+@media(min-width:768px){
+    .joc-heading{
+        font-size: 3rem;
+    }
+    .joc-second{
+        font-size: 2.5rem;
+    }
+    .joc-desc{
+        font-size: 1.7rem;
+        line-height: 35px;
+    }
+    .ms-heading{
+        font-size: 3rem;
+    }
+    .ms-desc{
+        font-size: 38px;
+    }
+    .ms-desc1{
+        font-size: 1.8rem;
+    }
+    .ms-desc2{
+        font-size: 1.8rem;
+    }
+    .ms-button{
+        width: 450px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+    .wu-heading{
+        font-size: 3rem;
+    }
+    .wu-desc{
+        font-size: 1.7rem;
+        line-height: 40px;
+    }
+}
+@media(min-width:1024px){
+    .joc{
+        height: 50vh;
+    }
+    .joc-heading{
+        font-size: 3.5rem;
+        padding :50px
 
+    }
+    .joc-second{
+        font-size: 3rem;
+        padding-left: 50px;
+        padding-bottom: 40px;
+    }
+    .joc-desc{
+        font-size: 2.3rem;
+        padding-left: 50px;
+        line-height: 55px;
+    }
+    .ms{
+        width: 50%;
+        height: 50vh;
+        float: left;
+    }
+    .ms-heading{
+        font-size: 2.6rem;
+        padding: 45px;
+    }
+    .ms-desc{
+        padding-left: 40px;
+        font-size: 50px;
+    }
+    .ms-desc1{
+        font-size: 2.1rem;
+        padding-bottom: 25px;
+    }
+    .ms-desc2{
+        padding-left: 40px;
+        padding-bottom: 50px;
+        font-size: 1.9rem;
+    }
+    .ms-button{
+        margin-left: 40px;
+        height: 70px;
+    }
+    .whyus{
+        width: 50%;
+        height: 50vh;
+        float: right;
+    }
+    .wu-heading{
+        padding: 45px;
+        font-size: 2.6rem;
+    }
+    .wu-desc{
+        font-size: 1.8rem;
+        padding-left: 50px;
+    }
 
 }
